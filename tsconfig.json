@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./build",
+    "rootDir": "./src",
+    "strict": true,
+    "allowJs": true,
+    "strictPropertyInitialization": false,
+    "baseUrl": "./src",
+    "paths": {
+      "@api/*": ["api/*"],
+      "@core/*": ["core/*"],
+      "@domain/*": ["domain/*"],
+      "@infrastructure/*": ["infrastructure/*"]
+    },
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
